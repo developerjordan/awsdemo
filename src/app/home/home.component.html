@@ -1,0 +1,90 @@
+<!--
+  parallax
+-->
+<div class="parallax-container">
+  <div class="parallax"><img src='../../assets/29424781894_52457dcbfe_b.jpg'></div>
+</div>
+<div class="section white">
+  <div class="row container">
+    <h1 style='text-align: center;'>Welcome</h1>
+        <!-- 
+        slider
+      -->
+      <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        </div>
+          <div class="carousel-item red white-text" href="#one!">
+              <img width='100%' height='100%' src='../../assets/29424781894_52457dcbfe_b.jpg'>
+          </div>
+        <div class="carousel-item amber white-text" href="#two!">
+          <h2>Second Panel</h2>
+          <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <h2>Third Panel</h2>
+          <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <h2>Fourth Panel</h2>
+          <p class="white-text">This is your fourth panel</p>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="parallax-container">
+    <div class="parallax"><img src='../../assets/29424781894_52457dcbfe_b.jpg'></div>
+  </div>
+<div class="section white">
+      <div class="row container">
+        <div>
+            <H1 style='text-align: center;'>Featured</H1>
+            <div class="featured-products" *ngFor='let product of featuredProducts'>
+              <img src={{product.images[0].src}} alt=P{{product.name}}>
+              <h5>{{product.name}}</h5>
+              <p>${{product.price}}</p>
+              <p>
+                <span class='fas fa-star checked'></span>
+                <span class='fas fa-star checked'></span>
+                <span class='fas fa-star checked'></span>
+                <span class='fas fa-star checked'></span>
+                <span class='fas fa-star-half-alt'></span>
+              </p>
+              <a href="" class='cart-btn btn btn-large waves-effect waves-light red pulse white-text'><i class='material-icons'>add_shopping_cart</i></a>
+            </div>
+          </div>
+         
+      </div>
+</div>
+<div class="parallax-container">
+      <div class="parallax"><img src='../../assets/29424781894_52457dcbfe_b.jpg'></div>
+</div>
+<div class="section white">
+    <div class="row container">
+        <H1 style='text-align: center;'>This site was built using...</H1>
+      <div class='frameworks'>
+            <i class="material-icons md-18">code</i>
+            <h4>HTML, CSS, JavaScript</h4>
+            <p>This website uses <strong>HTML</strong> to control the layout of this website. It means that HTML is the language that displays the elements onto a web page.
+            <strong>CSS</strong> is used for styling purposes. We use CSS to define how our elements will look, and be positioned on our web page.
+            <strong>JavaScript</strong> is a scripting language, and it's integration with html & css is seamless. <strong>JS</strong> is used to create interactivity and functionality on the website</p>
+        </div>
+        <div class='frameworks'>
+              <p><i class="material-icons md-18">dns</i></p>
+              <h4>Amazon Web Services</h4>
+              <p>The AWS website defines AWS as a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow.
+                It is affordable and extremely reliable. 
+                The AWS Cloud provides a broad set of infrastructure services, such as computing power, storage options, networking and databases, delivered as a utility: on-demand, available in seconds, with pay-as-you-go pricing
+              </p>
+          </div>
+          <div class='frameworks'>
+                <i class="material-icons md-18">build</i>
+                <h4>JS Frameworks</h4>
+                <p><strong>Angular, Node JS, Express JS, NoSQL database</strong>. Using Javascript with AWS, we're able to create the front-end and the back-end of our website. It's all done with one language, which makes the cost of developing a website a lot cheaper and easier.
+                  <strong>Angular</strong> is the framework that we use to create our front-end, and we will be producing <strong>React</strong> apps very soon as well. we use <strong>Node JS and Express JS</strong> to create our server side logic and code. This is where we create apis and a server which will be the middle-man to our data.
+                  The <strong>NoSQL databases</strong> use <strong>JSON (JavaScript Object Notation)</strong> to store their data. This makes manipulating data effortless because our data is stored using the same language we're developing with. 
+                </p>
+
+            </div>
+    </div>
+</div>

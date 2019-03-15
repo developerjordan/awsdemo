@@ -1,0 +1,24 @@
+.product-img {
+    border-radius: 30px;
+    max-width: 100%;
+    width: 300px;
+}
+
+.products {
+    text-align: center;
+}
+.checked {
+    color: orange;
+}
+
+.fa-star-half-alt {
+    color: orange;
+}
+
+.product-container {
+    margin: 30px auto;
+}
+
+.cart-btn {
+    border-radius: 30px;
+}
